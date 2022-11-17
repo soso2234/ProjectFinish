@@ -3,10 +3,12 @@ import ProductList from '../views/productList.vue'
 import ProductDetail from '../views/productDetail.vue'
 import ProductCreate from '../views/ProductCreate.vue'
 
+import MainPage from '../views/MainPage.vue'
+
 const routes = [
   {
-    path: '/',
-    name: 'home',
+    path: '/list',
+    name: 'ProductList',
     component: ProductList
   },
   {
@@ -18,6 +20,11 @@ const routes = [
     path: '/create',
     name: 'ProductCreate',
     component: ProductCreate
+  },
+  {
+    path : '/',
+    name : 'MainPage',
+    component : MainPage
   }
 ]
 
