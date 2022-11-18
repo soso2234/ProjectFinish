@@ -4,6 +4,7 @@ import MainPage from '../views/MainPage.vue'
 import About from '../views/AboutPage.vue'
 import Service from '../views/ServicePage.vue'
 import Contact from '../views/ContactPage.vue'
+import Properties from '../views/PropertiesPage.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path : '/contact',
     name : 'ContactPage',
     component : Contact
+  },
+  {
+    path : '/properties',
+    name : 'PropertiesPage',
+    component : Properties
   }
 ]
 

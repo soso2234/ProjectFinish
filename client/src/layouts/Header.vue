@@ -33,7 +33,7 @@
                                 </ul>
                             </li>
                             <li class="has-children active">
-                                <a href="#">하우스찾기</a>
+                                <a href="/properties">하우스찾기</a>
                                 <ul class="dropdown">
                                     <li class="has-children">
                                         <a href="#">서울</a>
