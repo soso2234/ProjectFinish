@@ -11,11 +11,25 @@
                         <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
                             <li><a href="/">Home</a></li>
                             <li class="has-children active">
-                                <a href="#">서비스소개</a>
+                                <router-link to="/about">
+                                    <a>서비스소개</a>
+                                </router-link>
                                 <ul class="dropdown">
-                                    <li><a href="#">소개</a></li>
-                                    <li><a href="#">이용방법</a></li>
-                                    <li><a href="#">1:1문의</a></li>
+                                    <li>
+                                        <router-link to="/about">
+                                            <a>소개</a>
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="/service">
+                                            <a>이용방법</a>
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="/contact">
+                                            <a>1:1문의</a>
+                                        </router-link>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="has-children active">
